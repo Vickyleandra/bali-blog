@@ -1,27 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
-@import url('https://fonts.googleapis.com/css?family=Oswald');
 
-
-
-*{
-  
-  background:rgb(215, 215, 215);
+#headline h1, #headline p{
+  background-color: #FFFFFF;
 }
-
-#headline h1, p, section{
-background-color: #FFFFFF
-
-}
-
 #headline h1 {
   font-family: 'Allura';
-  font-size: 60px;
+  font-size: 80px;
   color: black !important;
   margin-top: 100px;
   text-align: center;
   font-weight: 700;
 }
-
 #headline p{
   text-align: center;
   font-family: "Oswald";
@@ -33,7 +21,6 @@ background-color: #FFFFFF
   padding-bottom: 0px !important;
   padding-top: 0px !important;
 }
-
 .navbar-brand{
   font-family: 'Allura';
   font-size: 40pt;
@@ -44,6 +31,16 @@ background-color: #FFFFFF
   padding-top: 0px !important;
 }
 
+.navbar-nav ul{
+  background-color: rgb(142, 232, 196) !important; 
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0, 0;
+  background:rgb(215, 215, 215);
+}
 #gallery .col {
   flex: 30%;
   max-width: 30%;
@@ -58,31 +55,31 @@ background-color: #FFFFFF
   background: #fff;
   overflow: hidden;
 }
-
 #gallery .col img {
   margin-top: 7px;
   vertical-align: middle;
   margin-bottom: 7px;
 }
-
 #gallery .box h2, #gallery .box p{
   background-color: #FFFFFF;
   font-family: "Abel";
 }
-
 #gallery {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.footer {
-  right: 0;
-  left: 0;
-  bottom: 0;
+footer{
   width: 100%;
   background-color: rgb(142, 232, 196);
   text-align: center;
   font-weight: bold;
   font-size: 20px;
   position: relative;
+  padding: 20px;
+}
+footer p{
+  background-color: rgb(142, 232, 196);  
+  font-family: 'Oswald';
+  margin: 0;
 }
