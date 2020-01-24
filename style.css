@@ -1,7 +1,7 @@
-
-#headline h1, #headline p{
+#headline h1, #headline p {
   background-color: #FFFFFF;
 }
+
 #headline h1 {
   font-family: 'Allura';
   font-size: 80px;
@@ -10,7 +10,8 @@
   text-align: center;
   font-weight: 700;
 }
-#headline p{
+
+#headline p {
   text-align: center;
   font-family: "Oswald";
   font-size: 20pt;
@@ -21,55 +22,42 @@
   padding-bottom: 0px !important;
   padding-top: 0px !important;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-family: 'Allura';
   font-size: 40pt;
   font-weight: 600;
 }
+
 .nav-brand {
   padding-bottom: 0px !important;
   padding-top: 0px !important;
 }
 
-.navbar-nav ul{
+.navbar-nav ul {
   background-color: rgb(142, 232, 196) !important; 
 }
 
 #gallery {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0, 0;
   background:rgb(215, 215, 215);
 }
-#gallery .col {
-  flex: 30%;
-  max-width: 30%;
-  padding: 0 4px;
-  margin: 20px auto;
-  width: 1200px;
-}
-#gallery .col .box{
-  width:100%;
-  margin: 0 0 30px;
+
+#gallery .box{
   padding: 20px;
   background: #fff;
-  overflow: hidden;
 }
-#gallery .col img {
-  margin-top: 7px;
-  vertical-align: middle;
+
+#gallery .box img {
   margin-bottom: 7px;
 }
-#gallery .box h2, #gallery .box p{
+
+#gallery .box h2, #gallery .box p {
   background-color: #FFFFFF;
   font-family: "Abel";
+  text-align: justify;
 }
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-footer{
+
+footer {
   width: 100%;
   background-color: rgb(142, 232, 196);
   text-align: center;
@@ -78,7 +66,8 @@ footer{
   position: relative;
   padding: 20px;
 }
-footer p{
+
+footer p {
   background-color: rgb(142, 232, 196);  
   font-family: 'Oswald';
   margin: 0;
