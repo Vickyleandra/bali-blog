@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+*{
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0;
+}
+
+.row-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0, 0;
+    background:rgb(215, 215, 215);
+}
+  
+  /* Creates three equal columns that sits next to each other */
+.column-gallery {
+    flex: 30%;
+    max-width: 30%;
+    padding: 4px 4px;
+    margin: 20px auto;
+    width: 1200px;
+}
+
+.column-gallery .box-gallery{
+    width:100%;
+    margin: 0 0 30px 0;
+    padding: 20px;
+    background: #fff;
+    overflow: hidden;
+}
+  
+.column-gallery img{
+    max-width: 100%;
+    margin-top: 7px;
+    vertical-align: middle;
+    margin-bottom: 7px;
+}
+
+.box-gallery h2, .box-gallery p{
+    background-color: #ffffff;
+    font-family: 'Abel';
+    text-align: justify;
+}
+
+#headline h1 {
+    font-family: 'Allura';
+    font-size: 80px;
+    color: black !important;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+#headline p{
+    text-align: center;
+    font-family: "Oswald";
+    font-size: 20pt;
+    background-color: #ffffff;
+}
+
+#nav {
+    background-color: rgb(142, 232, 196) !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+}
+
+.nav-brand {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    background-color: rgb(142, 232, 196) !important; 
+}
+
+.navbar-brand{
+    font-size: 40pt !important;
+    font-family: 'Allura';
+    font-weight: 600;
+
+}
+
+.navbar-nav ul{
+    background-color: rgb(142, 232, 196) !important; 
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(142, 232, 196);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    padding: 20px;
+}
+
+footer p{
+    background-color: rgb(142, 232, 196);  
+    font-family: 'Oswald';
+    margin: 0;
+}
+
+/*Makes a one column-layout instead of three columns */
+@media (max-width: 800px) {
+.column-gallery {
+    flex: 66%;
+    max-width: 66%;
+    }
+}  
