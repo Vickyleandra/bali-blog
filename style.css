@@ -54,6 +54,7 @@
 #gallery .box h2, #gallery .box p {
   background-color: #FFFFFF;
   font-family: "Abel";
+  text-align: justify;
 }
 
 footer {
